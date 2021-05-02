@@ -1,0 +1,28 @@
+  function App() {
+    return (
+
+    <div className="App">
+
+      <div id="home">
+
+      {/* DIV section containing the navigation bar */}
+      <div class="navbar">
+      <div class="logo"></div>
+      <div class="navBtn">
+      <a>Home</a>
+      <a Link to='./aboutUs'>About Us</a>
+      <a>Algorithms</a>
+      </div>
+      </div>
+      {/* End of NAV Div */}
+
+
+      <h1>Welcome to K.E.R.M's Pathfinding Visualizer!</h1>
+
+      {/* Calls the render() to display grid */}
+      <PathfindingVisualizer></PathfindingVisualizer>
+
+      </div>
+    </div>
+  );
+  }

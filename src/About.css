@@ -1,0 +1,57 @@
+body {
+  /*body of the page*/
+  font: 13px/20px 'Lucida Grande', Verdana, sans-serif;
+  color: #201e1f;
+  background: #ffffff;
+}
+html {
+  box-sizing: border-box;
+}
+
+*:after {
+  box-sizing: inherit;
+}
+/*gives attributes to cards in column*/
+.column {
+  float: left;
+  width: 23%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+/*adjust card position and style*/
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  justify-content: center;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+/*creates section for who we are and team name*/
+.about-section {
+  padding: 25px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

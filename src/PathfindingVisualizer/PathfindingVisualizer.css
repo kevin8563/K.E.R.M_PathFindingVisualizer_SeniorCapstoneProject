@@ -1,0 +1,66 @@
+/* In charge of Algorithm butons  */
+
+.grid {
+  margin: 100px 0 0;
+  cursor: pointer;
+}
+/* Attributes for main body, grid section*/
+body {
+  font: 13px/20px 'Lucida Grande', Verdana, sans-serif;
+  color: #201e1f;
+  background: #ffffff;
+}
+
+/* Button attributes */
+.button {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  justify-content: center;
+  line-height: 35px;
+  padding: 0px 20px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #201e1f;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 40px;
+  outline: inherit;
+  margin-bottom: -20px;
+}
+.button1 {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  justify-content: center;
+  line-height: 35px;
+  padding: 0px 20px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #474e5d;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 40px;
+  outline: inherit;
+  margin-bottom: -20px;
+}
+
+/* Button color when clicked on */
+.button:active {
+  border-color: #201e1f;
+  background-color: #edae49;
+}
+
+/* changes cursor appearence when clikced on */
+.grid:active,
+.button:active {
+  cursor: grabbing;
+}
